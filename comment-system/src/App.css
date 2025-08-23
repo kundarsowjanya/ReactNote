@@ -1,0 +1,114 @@
+/* Container */
+.app {
+  max-width: 680px;
+  margin: 24px auto;
+  padding: 0 12px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* Header */
+h2 {
+  margin: 0 0 16px 0;
+  font-size: 22px;
+}
+
+/* Input area */
+.input-section {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.input-section input,
+.input-section textarea {
+  padding: 10px;
+  border: 1px solid #d6d6d6;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.input-section textarea {
+  min-height: 84px;
+  resize: vertical;
+}
+
+.input-section button {
+  justify-self: end;
+  padding: 8px 14px;
+  font-size: 14px;
+  background: #0b66ff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.input-section button:hover { background: #0956d6; }
+
+/* Comments */
+.comment {
+  border: 1px solid #e6e6e6;
+  background: #fafafa;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin: 10px 0;
+}
+
+.comment-header {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.time {
+  color: #777;
+  font-weight: normal;
+}
+
+.comment-text {
+  font-size: 15px;
+  margin: 6px 0 10px;
+}
+
+/* Actions */
+.comment-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.comment-actions button {
+  font-size: 12px;
+  padding: 4px 8px;
+  background: #eee;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.comment-actions button:hover { background: #ddd; }
+
+.comment-actions .toggle {
+  margin-left: auto;
+  background: #f1f1f1;
+}
+
+/* Nested replies */
+.child-comments {
+  margin-left: 18px;
+  margin-top: 10px;
+  border-left: 2px solid #e6e6e6;
+  padding-left: 12px;
+}
+
+/* Load more */
+.load-more {
+  display: block;
+  margin: 12px auto 0;
+  padding: 8px 14px;
+  font-size: 14px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.load-more:hover { background: #218838; }
